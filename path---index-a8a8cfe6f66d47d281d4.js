@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{478:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Gatsby Starter Blog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Problem I incorrectly merged the code I pulled from the upstream group project repository.  I commited the merge to my local repo and pushed…",fields:{slug:"/git-back/"},frontmatter:{date:"01 May, 2015",title:"Git Back to the Future"}}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---index-a8a8cfe6f66d47d281d4.js.map

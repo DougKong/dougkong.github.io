@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Fri, 26 Jan 2018 19:38:30 GMT</lastBuildDate><item><title><![CDATA[Git Back to the Future]]></title><description><![CDATA[Problem I incorrectly merged the code I pulled from the upstream group project repository.  I commited the merge to my local repo and pushed…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//git-back/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//git-back/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;Problem&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I incorrectly merged the code I pulled from the upstream group project repository.  I commited the merge to my local repo and pushed it to my fork of the project on my github.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Goals&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Reset my local repo back to the commit I want&lt;/li&gt;
+&lt;li&gt;Redo the merge&lt;/li&gt;
+&lt;li&gt;Push new merge commit up my fork of the project on github so I can later make a pull request on the group project repo&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Solution&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;git log “find the &amp;#x3C;sha&gt; of the commit I want”&lt;/li&gt;
+&lt;li&gt;git reset —hard &amp;#x3C;sha&gt; “change my local repo to the version of the commit i want”&lt;/li&gt;
+&lt;li&gt;git push “trigger merge.  do the merge correctly”&lt;/li&gt;
+&lt;li&gt;git add &lt;name of file&gt; “adds merged file to commit”&lt;/li&gt;
+&lt;li&gt;git commit “commits code to local repo”&lt;/li&gt;
+&lt;li&gt;git push —force origin master “forces my local commits to override what is commited in my github fork of the project”&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;After all those steps, I checked my github fork of the project to see that my fixed merge was there and that I could make a pull request on the group project repo without a merge conflict.&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item></channel></rss>
